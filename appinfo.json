@@ -5,7 +5,8 @@
     "longName": "zen night",
     "versionCode": 1,
     "capabilities": [
-        ""
+        "location",
+        "configurable"
     ],
     "shortName": "zen night",
     "companyName": "konsumer",

@@ -1,6 +1,16 @@
-// for now, just classio-battery-connection
-
 #include "pebble.h"
+
+
+static void init_zen_night(){
+	
+}
+
+static void deinit_zen_night(){
+	
+}
+
+// all below here is watchface look
+// for now, just classio-battery-connection
 
 Window *window;
 TextLayer *time_layer; 
@@ -83,8 +93,13 @@ static void do_deinit(void) {
   window_destroy(window);
 }
 
+// end face code
+
 int main(void) {
   do_init();
+  init_zen_night();
   app_event_loop();
   do_deinit();
+  deinit_zen_night();
 }
+
