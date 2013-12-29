@@ -66,13 +66,11 @@ static void do_init(void) {
   text_layer_set_text_alignment(battery_layer, GTextAlignmentCenter);
   text_layer_set_text(battery_layer, "100% charged");
 
-  /*
   // Ensures time is displayed immediately (will break if NULL tick event accessed).
   // (This is why it's a good idea to have a separate routine to do the update itself.)
   time_t now = time(NULL);
   struct tm *current_time = localtime(&now);
   handle_second_tick(current_time, SECOND_UNIT);
-  */
 
   tick_timer_service_subscribe(SECOND_UNIT, &handle_second_tick);
   battery_state_service_subscribe(&handle_battery);
@@ -93,7 +91,7 @@ static void do_deinit(void) {
   window_destroy(window);
 }
 
-// end face code
+// end watch-face code
 
 int main(void) {
   do_init();
@@ -102,4 +100,3 @@ int main(void) {
   do_deinit();
   deinit_zen_night();
 }
-

@@ -6,7 +6,7 @@ Pebble.addEventListener("appmessage", function(e) {
     console.log("Received message: " + e.payload);
 });
 
-Pebble.addEventListener("showConfiguration, function(e) {
+Pebble.addEventListener("showConfiguration", function(e) {
     Pebble.openURL("http://konsumer.github.io/zen_night/config.html");
 });
 

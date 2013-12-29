@@ -9,9 +9,9 @@
         "configurable"
     ],
     "shortName": "zen night",
-    "companyName": "konsumer",
+    "companyName": "Jetboy Studio",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     },
     "resources": {
         "media": []
