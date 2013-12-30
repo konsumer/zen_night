@@ -1,8 +1,10 @@
 # zen night
 
+Pebble watch alarm that considers sleep cycle & activity.
+
 ## NOT COMPLETE
 
-Pebble watch alarm that considers sleep cycle & activity.
+Currently this will log accelerometer data to couchdb.
 
 *  There are 2 watchfaces in this series. This one is for when you are sleeping. Toggle between them when you wake or sleep
 *  All configuration is handled in pebble app on phone (click gear icon.)
