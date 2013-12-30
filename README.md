@@ -6,6 +6,8 @@ Pebble watch alarm that considers sleep cycle & activity.
 
 Currently this will log accelerometer data to couchdb.
 
+## Future Description
+
 *  There are 2 watchfaces in this series. This one is for when you are sleeping. Toggle between them when you wake or sleep
 *  All configuration is handled in pebble app on phone (click gear icon.)
 *  Tells you when you should get to bed for your desired wakeup time
