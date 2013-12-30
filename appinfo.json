@@ -1,7 +1,11 @@
 {
     "versionLabel": "1.0",
     "uuid": "2323774f-1009-48aa-9d28-d21c97dfab1f",
-    "appKeys": {},
+    "appKeys": {
+        "y": 2,
+        "x": 1,
+        "z": 3
+    },
     "longName": "zen night",
     "versionCode": 1,
     "capabilities": [
