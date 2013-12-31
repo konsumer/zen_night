@@ -1,8 +1,9 @@
 // on load, grab stored values
 var config = localStorage.config ? JSON.parse(localStorage.config) : {};
-$("[name='username']").val(config.username);
-$("[name='password']").val(config.password);
-$("[name='database']").val(config.database);
+
+$("[name='username']").val(config.username||"");
+$("[name='password']").val(config.password||"");
+$("[name='database']").val(config.database||"");
 $("[name='log']").prop('checked', config.log);
 
 // on submit, zip form values & pass back to pebble js
