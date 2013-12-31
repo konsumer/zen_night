@@ -23,20 +23,35 @@
     </header>
 
     <div class="content">
-      <form>
+      <form class="inset">
+        <fieldset>
+          <legend>CouchDB</legend>
+          
+          <label class="block-label">Username</label>
+          <input class="input-text" type="text" name="username">
+          
+          <label class="block-label">Password</label>
+          <input class="input-text" type="password" name="password">
+          
+          <label class="block-label">Database</label>
+          <input class="input-text" type="text" name="database" placeholder="USERNAME.cloudant.com/DATABASE">
+        </fieldset>
 
-        <ul class="list inset">
-          <li class="list-divider">Sleep</li>
-          <li class="list-item-single-line"><label><input type="checkbox" name="log"> Log to remote server?</label></li>
-        </ul>
+        <fieldset>
+          <legend>Sleep</legend>
+          
+          <label><input type="checkbox" name="log"> Log to remote server?</label>
+        </fieldset>
 
-        <button class="pull-right btn"><i class="icon-save"></i> Save</button>
+        <div class="form-actions">
+          <button class="pull-right btn"><i class="icon-save"></i> Save</button>
+        </div>
       </form>
 
     </div>
 
     <div class="dialogs">
-      <!-- This is a requried container for your dialogs. All dialogs that you want to display in this page go here -->
+      <!-- This is a required container for your dialogs. All dialogs that you want to display in this page go here -->
     </div>
 
   </div>
